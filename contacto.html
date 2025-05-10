@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Librería iconos web: https://ionic.io -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="../index.html" class="logo">Diego Sainz Grandes</a>
+            <ul class="navbar">
+                <li>
+                    <a href="../quiensoy.html">Quién soy</a>
+                </li>
+                <li>
+                    <a href="../cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="../proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="../contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+        <div class="contenidocontacto">
+            <div class="titulocontacto">
+                <h2>Contacto</h2>
+            </div>
+            <div class="formulariocontacto">
+                <form action="mailto:diesainzg@gmail.com" method="post">
+                    <fieldset>
+
+                        <legend>Datos personales</legend>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" required>
+
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" name="apellidos" id="apellidos" required>
+
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>
+
+                        <label for="tlfn">Teléfono</label>
+                        <input type="text" name="tlfn" id="tlfn">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>¿Qué necesitas?</legend>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </fieldset>
+
+                    <div class="botonformulario">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Restablecer">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;Web Personal creada para la materia de Lenguaje de Marcas <br> del CFGS DAM</p>
+        </div>
+        <ul class="redesSociales">
+            <li>
+                <a href="mailto:diesainzg@gmail.com" target="_blank">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Diesainzg" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
